@@ -12,7 +12,7 @@ app.get('/', function(_, res) {
 });
 
 app.get('/message', function(_, res) {
-    res.send('Asistencia 02/03/21');
+    res.send('Asistencia 02/03/21 para Luis Eduardo Hernandez');
 });
 
 app.listen(process.env.PORT || 3000, () => console.log('Listening on port 3000'));
